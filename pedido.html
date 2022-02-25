@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fn">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="vieport" content="width=device-width, initial-scale=1.0">
+        <title>Pedido</title>
+    </head>
+
+    <body>
+        <h1>Aqui se hace el pedido</h1>
+
+        <hr>
+
+        <form action="pedido.js">
+            <label for="Nombre">Danos tu Nombre:</label>
+            <input type="text" id="Nombre" placeholder="Nombre">
+
+            <br><br>
+            
+            <label for="Mesa">Numero de Mesa:</label>
+
+            <input type="number" id="Mesa" placeholder="4">
+
+            <br><br>
+
+            <p>Para aqui o para llevar?</p>
+
+            <input type="radio" id="aqui" name="aquiollevar" value="Aqui">
+            <label for="Aqui">Comer Aqui</label><br>
+            <input type="radio" id="llevar" name="aquiollevar" value="Llevar">
+            <label for="llevar">Para Llevar</label><br>
+       
+            <br><br>
+
+            <p>Burritos de que?</p>
+
+            <input type="checkbox" id="pastor" name="pastor" value="pastor">
+            <label for="mercurio">Pastor</label>
+            <input type="number" id="pastorCuantos" name="pastorCuantos" placeholder="Cuantos?"><br>
+
+            <input type="checkbox" id="vegano" name="vegano" value="vegano">
+            <label for="vegano">Vegano</label>
+            <input type="number" id="veganoCuantos" name="veganoCuantos" placeholder="Cuantos?"><br>
+
+            <input type="checkbox" id="chorizo" name="chorizo" value="chorizo">
+            <label for="chorizo">Chorizo</label>
+            <input type="number" id="chorizoCuantos" name="chorizoCuantos" placeholder="Cuantos?"><br>
+
+            <input type="checkbox" id="queso" name="queso" value="queso">
+            <label for="queso">Queso</label>
+            <input type="number" id="quesoCuantos" name="quesoCuantos" placeholder="Cuantos?"><br>
+
+            <br><br>
+
+            <p>Y para Tomar?</p>
+
+            <select name="refresco" id="refresco">
+                <option value="Cocacola">Coca-Cola</option>
+                <option value="Manzana">Manzana</option>
+                <option value="Boing">Boing</option>
+                <option value="Sangria">Sangria</option>
+                <option value="----------">----------</option>
+                <option value="Horchata">Horchata</option>
+                <option value="Jamaica">Jamaica</option>
+                <option value="----------">----------</option>
+                <option value="corona">Corona</option>
+                <option value="victoria">Victoria</option>
+                <option value="bohemia">Bohemia</option>
+                <option value="michelada">Michelada</option>
+            </select>
+
+            <br><br><br><br>
+
+            <input type="reset">
+            <input type="submit">
+        </form>
+    </body>
+</html>
